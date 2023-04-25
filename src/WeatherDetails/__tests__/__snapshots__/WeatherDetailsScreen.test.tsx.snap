@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherDetailsScreen Should match a snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    [
+      "top",
+    ]
+  }
+  style={
+    {
+      "backgroundColor": "#e4f6f4",
+      "flex": 1,
+      "paddingHorizontal": 40,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "marginTop": 0,
+      }
+    }
+    testID="weather-details"
+  >
+    <View
+      style={
+        {
+          "marginBottom": 40,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            {
+              "alignItems": "center",
+              "gap": 10,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "black",
+                "fontSize": 24,
+              },
+              undefined,
+              {
+                "fontFamily": "entypo",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+        >
+          
+        </Text>
+        <Text
+          style={
+            {
+              "fontFamily": "Actor-Regular",
+              "fontSize": 22,
+            }
+          }
+        >
+          Poznań
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "uri": "http://openweathermap.org/img/wn/10d@2x.png",
+            }
+          }
+          style={
+            [
+              {
+                "height": 100,
+                "marginTop": -15,
+                "width": 100,
+              },
+              {
+                "marginLeft": -20,
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "Actor-Regular",
+                "fontSize": 22,
+              },
+              {
+                "marginLeft": 5,
+                "marginTop": 5,
+              },
+            ]
+          }
+        >
+          19
+          ˚
+        </Text>
+        <View
+          style={
+            {
+              "backgroundColor": "#000",
+              "height": "80%",
+              "marginHorizontal": 10,
+              "width": 1,
+            }
+          }
+        />
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "Actor-Regular",
+                "fontSize": 18,
+                "lineHeight": 24,
+              },
+              {
+                "flex": 1,
+                "flexWrap": "wrap",
+                "marginTop": 5,
+              },
+            ]
+          }
+        >
+          Light inisity showers
+          .
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontFamily": "Actor-Regular",
+              "fontSize": 18,
+              "lineHeight": 24,
+            }
+          }
+        >
+          Maximum temprature: 
+          20
+          ˚
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontFamily": "Actor-Regular",
+              "fontSize": 18,
+              "lineHeight": 24,
+            }
+          }
+        >
+          Minimum temprature: 
+          18
+          ˚
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontFamily": "Actor-Regular",
+              "fontSize": 18,
+              "lineHeight": 24,
+            }
+          }
+        >
+          Feels like: 
+          18
+          ˚
+        </Text>
+      </View>
+      <Text
+        style={
+          {
+            "fontFamily": "Actor-Regular",
+            "fontSize": 18,
+            "lineHeight": 24,
+          }
+        }
+      >
+        Humidity: 
+        54
+        %
+      </Text>
+      <Text
+        style={
+          {
+            "fontFamily": "Actor-Regular",
+            "fontSize": 18,
+            "lineHeight": 24,
+          }
+        }
+      >
+        Pressure: 
+        1000
+        mb
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "justifyContent": "center",
+        "minHeight": 56,
+        "opacity": 1,
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <Text>
+      Back
+    </Text>
+  </View>
+</RNCSafeAreaView>
+`;

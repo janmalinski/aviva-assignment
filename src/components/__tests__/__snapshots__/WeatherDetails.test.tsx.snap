@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering WeatherDetails component Should match a snapshot 1`] = `
+<View
+  style={
+    {
+      "marginTop": "65%",
+    }
+  }
+  testID="weather-details"
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          {
+            "fontFamily": "Actor-Regular",
+            "fontSize": 22,
+          }
+        }
+      >
+        Poznań
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "alignSelf": "center",
+            "fontFamily": "Actor-Regular",
+            "fontSize": 42,
+          }
+        }
+      >
+        14.4
+      </Text>
+      <Text
+        style={
+          {
+            "fontSize": 38,
+            "marginLeft": 5,
+            "marginTop": 7,
+          }
+        }
+      >
+        ˚
+      </Text>
+    </View>
+    <Image
+      source={
+        {
+          "uri": "http://openweathermap.org/img/wn/09d@2x.png",
+        }
+      }
+      style={
+        {
+          "height": 100,
+          "marginTop": -15,
+          "width": 100,
+        }
+      }
+    />
+  </View>
+</View>
+`;

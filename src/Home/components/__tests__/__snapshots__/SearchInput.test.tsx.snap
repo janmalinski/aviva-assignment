@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering SearchInput Should match a snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "flexDirection": "row",
+        "height": 40,
+        "marginBottom": 15,
+        "marginTop": 30,
+      },
+    ]
+  }
+  testID="search-input"
+>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Search"
+    style={
+      {
+        "borderBottomWidth": 1,
+        "flex": 1,
+        "height": 40,
+        "paddingHorizontal": 5,
+      }
+    }
+    testID="search-text-input"
+    value="Poznań"
+  />
+  <Text />
+</View>
+`;
